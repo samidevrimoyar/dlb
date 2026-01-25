@@ -1,0 +1,12 @@
+Django>=4.2,<5.0
+djangorestframework
+markdown
+django-filter
+psycopg2-binary
+django-storages
+boto3
+Pillow
+gunicorn
+python-dotenv
+djangorestframework-simplejwt
+drf-spectacular
