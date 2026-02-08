@@ -6,6 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     # API endpoints
+    path('', include('core.urls_root')), # We need to create this or import view directly
     path('api/users/', include('users.urls')),
     path('api/logbook/', include('logbook.urls')),
     
